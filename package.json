@@ -4,14 +4,10 @@
   "description": "Learning Jest.js Unit Testing",
   "main": "index.js",
   "scripts": {
-    "testing": "jest",
-    "testingWatch": "jest --watchAll"
+    "testing": "jest --coverage"
   },
   "author": "Minhaz Halim",
   "license": "ISC",
-  "dependencies": {
-    "axios": "^0.24.0"
-  },
   "devDependencies": {
     "jest": "^27.3.1"
   }
